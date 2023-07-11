@@ -1,0 +1,45 @@
+/* header related styles */
+.header {
+    background-color: #E554731A;
+    margin: 0px;
+
+}
+
+.banner {
+    padding: 200px;
+    display: flex;
+}
+
+.banner-greeting {
+    width: 708px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner-pera {
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pngwing-10 {
+    width: 635px;
+    height: 800px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
