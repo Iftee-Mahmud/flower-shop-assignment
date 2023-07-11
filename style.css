@@ -1,17 +1,17 @@
 /* header related styles */
 .header {
     background-color: #E554731A;
-    margin: 0px;
-
+    width: 2020px;
+    height: 1000px;
 }
 
 .banner {
-    padding: 200px;
+    padding: 200px 970px 365px 240px;
     display: flex;
+    width: 600px
 }
 
 .banner-greeting {
-    width: 708px;
     color: #272727;
     font-family: Lato;
     font-size: 80px;
@@ -19,7 +19,6 @@
 }
 
 .banner-pera {
-    width: 634px;
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
@@ -39,7 +38,114 @@
 }
 
 .pngwing-10 {
+    display: block;
+    padding-left: 400px;
+    padding-bottom: 1000px;
     width: 635px;
     height: 800px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+/* main related styles */
+/* main section 1 */
+
+.sec-1-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 200px 600px 0px 600px;
+    gap: 24px;
+    text-align: center;
+}
+
+.sec-1-pera {
+    color: rgba(39, 39, 39, 0.60);
+    gap: 24px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/* main section 2 */
+section div {
+    display: flex;
+
+}
+
+.pink {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    display: block; 
+    margin: 50px 24px 0px 250px;
+    
+}
+
+.red {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    display: block;
+    margin: 50px 24px 0px 0px;
+
+}
+
+.yellow {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    display: block;
+    margin: 50px 0px 0px 0px; 
+    
+}
+.flower1{
+    display: block;
+    padding: 110px 0px 0px 70px;
+}
+.flower2{
+    display: block;
+    padding: 120px 50px 50px 50px;
+}
+.flower3{
+    display: block;
+    padding: 65px 0px 0px 70px;
+}
+.underline1{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin: 20px 100px 0px 370px;
+}
+.underline2{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+text-decoration-line: underline;
+margin: 20px 100px 0px 250px;
+}
+.underline3{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+margin: 20px 200px 0px 200px;
+
 }
