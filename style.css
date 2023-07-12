@@ -1,12 +1,13 @@
 /* header related styles */
+
 .header {
     background-color: #E554731A;
-    width: 2020px;
+    width: 2022px;
     height: 1000px;
 }
 
 .banner {
-    padding: 200px 970px 365px 240px;
+    padding: 200px 970px 320px 240px;
     display: flex;
     width: 600px
 }
@@ -27,7 +28,6 @@
 
 .btn-primary {
     padding: 20px 43px;
-    gap: 10px;
     border-radius: 8px;
     background: #E55473;
     border: none;
@@ -83,9 +83,9 @@ section div {
     background: rgba(167, 33, 98, 0.15);
     width: 464px;
     height: 538px;
-    display: block; 
+    display: block;
     margin: 50px 24px 0px 250px;
-    
+
 }
 
 .red {
@@ -104,22 +104,26 @@ section div {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     display: block;
-    margin: 50px 0px 0px 0px; 
-    
+    margin: 50px 0px 0px 0px;
+
 }
-.flower1{
+
+.flower1 {
     display: block;
     padding: 110px 0px 0px 70px;
 }
-.flower2{
+
+.flower2 {
     display: block;
     padding: 120px 50px 50px 50px;
 }
-.flower3{
+
+.flower3 {
     display: block;
     padding: 65px 0px 0px 70px;
 }
-.underline1{
+
+.underline1 {
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -129,23 +133,119 @@ section div {
     text-decoration-line: underline;
     margin: 20px 100px 0px 370px;
 }
-.underline2{
-    color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 24px;
-font-weight: 700;
-text-decoration-line: underline;
-margin: 20px 100px 0px 250px;
-}
-.underline3{
-    color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 24px;
-font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
-margin: 20px 200px 0px 200px;
 
+.underline2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin: 20px 100px 0px 250px;
+}
+
+.underline3 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: 20px 200px 0px 200px;
+}
+
+/* main section 3 */
+
+
+.deal{
+    width: 2022px;
+    height: 1000px;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin-top: 200px;
+display: block;
+justify-content: space-between;
+}
+.head-deal {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    
+
+}
+.pera-deal{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+.pngwing-8{
+    width: 318px;
+    height: 420px;
+}
+
+.off{
+    color: #E55473;
+}
+
+/* section 3 */
+.flower-divs2{
+    display: flex;
+}
+
+.flower3{
+    margin-left: 250px;
+}
+.flower4{
+    margin-left: 25px;
+}
+/* section 4 */
+.sec-4{
+    border-radius: 8px;
+    background: url(Rectangle 9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    width: 1440px;
+height: 449px;
+flex-shrink: 0;
+}
+
+/* footer section */
+.footer-sec{
+    align-items: center;
+    text-align: center;
+    background-color: #111010;
+    width: 100%;
+    height: 449px;
+    
+}
+.footer-title{
+    color: #E55473;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 150px;
+}
+.white{
+    color: white;
+}
+.footer-para{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
